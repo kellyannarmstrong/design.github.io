@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Kelly Armstrong's Design 117 Portal</title>
+
+
+	<style>
+		body {
+			font-family: Ariel, sans-serif;
+			align-content: center;
+		}
+
+		/*This is the page container div where you declare CSS grid display
+ 		and set up how many columns and rows are needed for the overall page.
+ 		fr is a fractional, scalable unit for relative portions of the page,
+		but you can use other units like pixels too*/
+
+		.container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: .2fr 1.6fr .2fr;
+			max-width: 80vw;
+			margin: auto;
+		}
+
+		/*Here the header "item" is set to row 1 and set to span column lines 1-5, ie.
+		all 4 columns that were set up in the container*/
+
+		header {
+			grid-row: 1;
+			grid-column: 1 / 4;
+			background-color: lavender;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 2em;
+			text-align: center;
+		}
+
+		h2 {
+			font-size: 1em;
+			text-align: center;
+		}
+
+		/*The aside item is set to grid row 2 and set to span just from column lines 1 to 2*/
+
+		aside {
+			min-height: 50vh;
+			background-color: lightpink;
+			grid-row: 2;
+			grid-column: 1 / 2;
+		}
+
+		/*This section item is set to grid row 2 and set to span  from column lines 2 to 5*/
+
+		section {
+			background-color: white;
+			grid-row: 2;
+			grid-column: 2 / 3;
+		}
+
+		.Category3 {
+			background-color: lightpink;
+			grid-row: 2;
+			grid-column: 3 / 4;
+		}
+
+		/*The footer item is set to row 3 and set to span column lines 1-5, ie.
+		all 4 columns that were set for the container*/
+
+		footer {
+			background-color: lavender;
+			grid-row: 3;
+			grid-column: 1 / 5;
+			text-align: center;
+			padding: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Kelly Armstrong's Design 117 Portal</h1>
+			<br><img src="https://assets.justinmind.com/blog/wp-content/uploads/2018/04/design-quotes-for-ui-ux-designers-header.png" alt="header">
+			<style>
+				img {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 55%
+				}
+			</style>
+			<p>Below is an archive of the coursework that I have completed in Design 117, an introduction to the fundamentals of creating screen-based interactive media.</p>
+		</header>
+
+		<aside>
+			<h2>Projects</h2>
+			<p>Three major projects concentrate on creating strong conceptual frameworks and communicating clearly utilizing the basic languages of the web: HTML and CSS.</p>
+			<ol>
+				<li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ol>
+		</aside>
+
+		<section>
+			<h2>Exercises</h2>
+      <p>The following exercises are a progression of practice of my study and application of the principles of interface design, hierarchy, interactivity, user-centered design, responsive web design, and accessibility.</p>
+      <ul>
+        <li><a href="./KellyArmstrongstoryremix.html">History of Internet Art: Remixing</a></li>
+        <li><a>HTML Semantic Markup Practice Exercise</a></li>
+          <li><ol>
+            <li><a href="./KellyArmstrongEx2Markup.html">Part 1</a></li>
+            <li><a href="./KellyArmstrongEx2Markup2.html">Part 2</a></li>
+            <li><a href="./KellyArmstrongEx2Markup3.html">Part 3</a></li>
+          </ol></li>
+        <li><a href="ex3lee+armstrong.html">CSS Colorize Selector Exercise: Magnificent Ruler of all Llamas Game</a></li>
+        <li><a href="./KellyArmstrongboxmodel-game.html">Exploring Box Model Game</a></li>
+        <li><a href="./LeeArmstrongExercise5.html">Web Font Style Tile and Oral Report Exercise</a></li>
+        <li><a href="#">CSS Grid One Page Layout</a></li>
+      </ul>
+		</section>
+
+		<section class="Category3">
+			<h2>Useful Links</h2>
+      <ul>
+        <li><h3>Useful Tools</h3>
+          <ul>
+            <li><a href="http://wbwip.com/wbw/emailencoder.html">Encode Email Addresses</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+
+        <li><h3>Blog Posts</h3>
+          <ul>
+            <li><a href="./KellyArmstrongBlog">Blog Post #1</a></li>
+            <li><a href="./cssgrid.html">Blog Post #2</a></li>
+          </ul>
+        </li>
+
+      </ul>
+		</section>
+
+		<footer>
+			<p>Kelly Armstrong</p>
+		  <p>Contact: <a href="mailto:&#107;&#097;&#097;&#114;&#109;&#115;&#116;&#114;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#107;&#097;&#097;&#114;&#109;&#115;&#116;&#114;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+		  <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a></p>
+		</footer>
+
+	</div>
+</body>
+
+</html>
