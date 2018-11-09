@@ -1,80 +1,85 @@
+/*This box-sizing line makes the width of elements include up to the border*/
+  * {
+    box-sizing: border-box;
+  }
 
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
-.pagecontainer {
-  margin: auto;
-  width: 90vw;
-}
+  body {
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+  }
+/*This is a container around the whole page*/
+  .container {
+    margin: auto;
+    max-width: 70vw;
+    background-color: white;
+    background-image: url('images/main.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%
-}
+  header {
+    padding: 4rem;
+    background: white;
+    background-image: url('images/diary.jpg');
+    border: solid;
+    border-width: 1em;
+    color: white;
 
-h1 {
-  color: #f26255
-}
+  }
 
-h2 {
-  color: #4f97cd
-}
+  main {
+    margin: 3rem;
+  }
 
-body{
-  font-family: helvetica;
-}
+  article {
 
-header {
-  background: #DCEAF5;
-  padding: 2rem;
-  text-align: center;
-}
-/*Unordered list in the navbar is set to display flex with wrapping
-so at smaller size-mobile width--it wraps vertically in a row
-and at larger screen widths it spreads more horizontally.
-And justify-content centers flex blox content*/
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-}
-/*Sets background color of nav list elements and their width and height*/
-nav ul li {
-  background: #FDC145;
-  height: 2rem;
-  width: 36rem;
-  padding-top: 1rem;
-  border-color: #FDC145;
-  border: solid;
-  border-width: 1px;
-  text-align: center;
-}
-/*Takes away the default underlining of links and sets color of menu font*/
-nav ul li a {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: white;
-}
-/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
-nav ul li:active {
-  background: #e9892f;
-}
-/*This class should be applied to html differently on each page to let user know
-which page you are on--in this case the home page*/
-.locationmarker {
-  background: #f26255;
-}
+    border: solid;
+    border-radius: 3rem;
+    margin: 1em;
+  }
 
-article {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+  .intro {
+    background-color: white;
+    padding: 3rem;
+    background-image: url('images/introimage2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
 
-footer {
-  background: #DCEAF5;
-  padding: 2rem;
-  text-align: center;
-}
+  #diaryentry1 {
+    padding: 2rem;
+    background-color: white;
+    background-image: url('images/diary1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+
+  #diaryentry2 {
+    background-color: white;
+    padding: 2rem;
+    background-image: url('images/diary2.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  #diaryentry3 {
+    padding: 2rem;
+    background-color: white;
+    background-image: url('images/diary3.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+img{
+  width: 150px;
+  footer {
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+
+  h3 {
+    text-align: center;
+  }
