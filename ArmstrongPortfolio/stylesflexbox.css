@@ -1,0 +1,103 @@
+
+
+/*Sets the width of the overall page container div
+to 90% of viewport width and margin:auto centers the page
+in the middle of the browser no matter how wide you stretch the browser*/
+.pagecontainer {
+  background: #77f193;
+  margin: auto;
+  width: 90vw;
+  background-image: radial-gradient(skyblue, green);
+}
+
+header {
+  background-image: url("images/header7.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 2rem;
+  text-align: center;
+  height: 400px;
+
+}
+/*Unordered list in the navbar is set to display flex with wrapping
+so at smaller size-mobile width--it wraps vertically in a row
+and at larger screen widths it spreads more horizontally.
+And justify-content centers flex blox content. Webkit declaration
+resets the browser's additional padding so the nav centers properly.*/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+/*Sets background color of nav list elements and their width and height*/
+nav ul li {
+  background: #4aa6e8;
+  height: 3rem;
+  width: 30rem;
+  padding-top: 1rem;
+  border-color: black;
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+}
+/*Takes away the default underlining of links and sets color of menu font*/
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: blue;
+}
+/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+nav ul li:active {
+  background: #d82fe9;
+}
+/*This class should be applied to html differently on each page to let user know
+which page you are on--in this case the home page*/
+.locationmarker {
+  background: #4fe5fa;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+article img {
+  width: 30vw;
+  border-style: solid;
+  border: 1px;
+}
+article {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 30rem;
+}
+
+footer {
+  background: #97eca2;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer img {
+  width: 10vw;
+}
+/*****Typography*******/
+body {
+color: #11228b;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 1.5em;
+}
+
+h1 {
+  color: rgba(0, 50, 235, 0.7);
+  font-size: 4em;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: .03em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
