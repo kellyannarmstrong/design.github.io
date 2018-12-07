@@ -4,14 +4,14 @@
 to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
-  background: #77f193;
+  background: 
   margin: auto;
   width: 90vw;
   background-image: radial-gradient(skyblue, green);
 }
 
 header {
-  background-image: url("images/header7.jpg");
+  background-image: url("header.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem;
