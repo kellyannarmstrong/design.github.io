@@ -1,17 +1,15 @@
 
 
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
+
 .pagecontainer {
-  background:
+  background: #77f193;
   margin: auto;
   width: 90vw;
-  background-image: radial-gradient(skyblue, lightpink);
+  background-image: radial-gradient(skyblue, green);
 }
 
 header {
-  background-image: url("header2.jpg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem;
@@ -19,11 +17,7 @@ header {
   height: 400px;
 
 }
-/*Unordered list in the navbar is set to display flex with wrapping
-so at smaller size-mobile width--it wraps vertically in a row
-and at larger screen widths it spreads more horizontally.
-And justify-content centers flex blox content. Webkit declaration
-resets the browser's additional padding so the nav centers properly.*/
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -45,16 +39,15 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: white;
+  color: blue;
 }
-/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+
 nav ul li:active {
   background: #d82fe9;
 }
-/*This class should be applied to html differently on each page to let user know
-which page you are on--in this case the home page*/
+
 .locationmarker {
-  background: pink;
+  background: #4fe5fa;
 }
 main {
   display: flex;
@@ -75,7 +68,7 @@ article {
 }
 
 footer {
-  background: lightpink;
+  background: #97eca2;
   padding: 2rem;
   text-align: center;
 }
@@ -83,15 +76,15 @@ footer {
 footer img {
   width: 10vw;
 }
-/*****Typography*******/
+
 body {
-color: white;
+color: #11228b;
 font-family: 'Scope One', serif;
 font-size: 1.5em;
 }
 
 h1 {
-  color: white(0, 50, 235, 0.7);
+  color: rgba(0, 50, 235, 0.7);
   font-size: 4em;
   font-family: 'Fredericka the Great', Charcoal, sans-serif;
   letter-spacing: .03em;
