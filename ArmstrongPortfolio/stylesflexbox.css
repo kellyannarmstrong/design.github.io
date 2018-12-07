@@ -5,7 +5,7 @@
   background: #77f193;
   margin: auto;
   width: 90vw;
-  background-image: radial-gradient(skyblue, green);
+  background-image: radial-gradient(white, lightpink);
 }
 
 header {
@@ -47,13 +47,19 @@ nav ul li:active {
 }
 
 .locationmarker {
-  background: #4fe5fa;
+  background: darkgreen;
 }
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 3rem;
+}
+
+title {
+color: black;
+font-family: 'Fredericka the Great', sans-serif;
+font-size: 1.5em;
 }
 
 article img {
