@@ -1,12 +1,8 @@
 
-
-/*Sets the width of the overall page container div
-to 90% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
-  background: radial-gradient(skyblue, green);
+  background: radial-gradient(lightblue, green);
 }
 
 header {
@@ -18,15 +14,14 @@ header {
   height: 400px;
 
 }
-/*List-style-type:none removes list bullet points. Webkit declaration
-removes the browser's additional padding */
+
 nav ul {
   list-style-type: none;
   -webkit-padding-start: 0px;
 }
-/*Sets background color of nav list elements and their width and height*/
+
 nav ul li {
-  background: #4aa6e8;
+  background: pink;
   height: 3rem;
   width: 100%;
   padding-top: 1rem;
@@ -35,18 +30,17 @@ nav ul li {
   border-width: 1px;
   text-align: center;
 }
-/*Takes away the default underlining of links and sets color of menu font*/
+
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
   color: blue;
 }
-/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+
 nav ul li:active {
   background: #d82fe9;
 }
-/*This class should be applied to html differently on each page to let user know
-which page you are on--in this case the home page*/
+
 .locationmarker {
   background: #4fe5fa;
 }
@@ -77,7 +71,7 @@ footer {
 footer img {
   width: 40%;
 }
-/*****Typography*******/
+
 body {
 color: #11228b;
 font-family: 'Scope One', serif;
@@ -95,20 +89,20 @@ h2 {
   font-size: 1.7em;
 }
 
-/*****Responsive for Larger Screens*******/
+
 @media only screen and (min-width: 900px)  {
-/*sets the header image to full screen width*/
+
   header {
     background-size: 100% auto;
   }
 
-  /*sets the nav bar with flex box to be horizontal if enough width*/
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-/*sets width of nav list items*/
+
   nav ul li {
     width: 20rem;
 }
