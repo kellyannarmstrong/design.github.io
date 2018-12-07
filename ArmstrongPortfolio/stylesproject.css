@@ -6,7 +6,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 90vw;
-  background: radial-gradient(skyblue, green);
+  background: radial-gradient(lightblue, lightgreen);
 }
 
 header {
@@ -110,6 +110,12 @@ nav ul {
 }
 /*sets width of nav list items*/
   nav ul li {
-    width: 20rem;
+    width: 100%;
+}
+.gallery {
+  padding: 5%;
+}
+.text a:link{
+  color: green;
 }
 }
