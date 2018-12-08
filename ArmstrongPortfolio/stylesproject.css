@@ -2,7 +2,9 @@
 .pagecontainer {
   margin: auto;
   width: 90vw;
-  background: radial-gradient(lightblue, green);
+
+  background: radial-gradient(white, lightpink);
+
 }
 
 header {
@@ -13,6 +15,12 @@ header {
   text-align: center;
   height: 400px;
 
+}
+
+title {
+color: black;
+font-family: 'Fredericka the Great', sans-serif;
+font-size: 1.5em;
 }
 
 nav ul {
@@ -42,7 +50,7 @@ nav ul li:active {
 }
 
 .locationmarker {
-  background: #4fe5fa;
+  background: darkgreen;
 }
 main {
   display: flex;
@@ -104,6 +112,13 @@ nav ul {
 }
 
   nav ul li {
-    width: 20rem;
+    width: 100%;
+}
+.gallery {
+  padding: 5%;
+  width: 30%
+}
+.text a:link{
+  color: green;
 }
 }

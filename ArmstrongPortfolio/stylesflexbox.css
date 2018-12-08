@@ -5,15 +5,11 @@
   background:
   margin: auto;
   width: 90vw;
-  background-image: radial-gradient(skyblue, lightpink);
+  background-image: radial-gradient(white, lightpink);
 }
 
 header {
-<<<<<<< HEAD
-  background-image: url("");
-=======
   background-image: url("header2.jpg");
->>>>>>> 636e5f31ea3b0ceecc6215052170351c6d3f6f32
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem;
@@ -33,7 +29,6 @@ nav ul {
 nav ul li {
   background: #4aa6e8;
   height: 3rem;
-  width: 30rem;
   padding-top: 1rem;
   border-color: black;
   border: solid;
@@ -59,6 +54,12 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 3rem;
+}
+
+title {
+color: black;
+font-family: 'Fredericka the Great', sans-serif;
+font-size: 1.5em;
 }
 
 article img {
