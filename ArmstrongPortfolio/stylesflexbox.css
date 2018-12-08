@@ -2,14 +2,18 @@
 
 
 .pagecontainer {
-  background: #77f193;
+  background:
   margin: auto;
   width: 90vw;
-  background-image: radial-gradient(skyblue, green);
+  background-image: radial-gradient(skyblue, lightpink);
 }
 
 header {
+<<<<<<< HEAD
   background-image: url("");
+=======
+  background-image: url("header2.jpg");
+>>>>>>> 636e5f31ea3b0ceecc6215052170351c6d3f6f32
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 2rem;
@@ -40,7 +44,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: blue;
+  color: white;
 }
 
 nav ul li:active {
@@ -48,7 +52,7 @@ nav ul li:active {
 }
 
 .locationmarker {
-  background: #4fe5fa;
+  background: pink;
 }
 main {
   display: flex;
@@ -69,7 +73,7 @@ article {
 }
 
 footer {
-  background: #97eca2;
+  background: lightpink;
   padding: 2rem;
   text-align: center;
 }
@@ -79,13 +83,13 @@ footer img {
 }
 
 body {
-color: #11228b;
+color: white;
 font-family: 'Scope One', serif;
 font-size: 1.5em;
 }
 
 h1 {
-  color: rgba(0, 50, 235, 0.7);
+  color: white(0, 50, 235, 0.7);
   font-size: 4em;
   font-family: 'Fredericka the Great', Charcoal, sans-serif;
   letter-spacing: .03em;
