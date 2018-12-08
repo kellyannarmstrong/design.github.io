@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Images in a grid</title>
+
+
+	<style>
+		body {
+			font-family: 'Fredericka the Great', sans-serif;
+			align-content: center;
+		}
+
+		.container {
+
+			max-width: 80vw;
+			margin: auto;
+		}
+
+		header {
+			grid-row: 1;
+			grid-column: 1 / 5;
+			font-family: 'Fredericka the Great', sans-serif;
+			color: pink;
+			text-align: center;
+			background-color: white;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+		}
+
+		h1 {
+			font-size: 2em;
+		}
+
+		h2 {
+			font-size: 1em;
+		}
+
+
+		section {
+			background-color: white;
+
+		}
+
+		/*This is the container div where you declare CSS grid display
+		and set up how many columns and rows are needed for the image grid.
+		You could then go on to position each div on the grid though if
+		they are equidistant it is not necessary.
+		fr is a fractional, scalable unit for relative portions of the page,
+		but you can use other units like pixels too*/
+
+		.image-container-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-gap: 2rem;
+			max-width: 60vw;
+			margin: auto;
+			background: white;
+
+		}
+
+		.imagebox {
+			padding: 0.5rem;
+			background: lightpink;
+
+		}
+
+		img {
+			width: 100%;
+		}
+/* You could add grid postioning here for these child items of the grid container and other unique styleing */
+		.project1 {}
+		.project2 {}
+		.project3 {}
+		.project4 {}
+		.project5 {}
+		.project6 {}
+
+		footer {
+			background-color: lightpink;
+			text-align: center;
+			padding: 2rem;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Kelly Armstrong</h1>
+			<h2>Digital Designer & Happy Human</h2>
+		</header>
+
+		<aside>
+		</aside>
+
+		<section>
+			<!-- Notice there are two classes applied to the div, one generic one and one for each seperate project -->
+			<section class="image-container-grid">
+				<div class="imagebox project1"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+				<div class="imagebox project2"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+				<div class="imagebox project3"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+				<div class="imagebox project4"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+				<div class="imagebox project5"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+				<div class="imagebox project6"><img src="http://opensorcery.net/Images/backnew3.png"></div>
+			</section>
+		</section>
+
+		<footer>
+			<p><a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a></p>
+		</footer>
+
+	</div>
+</body>
+
+</html>
