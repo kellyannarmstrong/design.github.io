@@ -70,7 +70,7 @@
 		}
 
 		.imagebox {
-			padding: .5rem;
+			padding: 0.5rem;
 			background: #B6E9FB;
 
 		}
@@ -79,12 +79,30 @@
 			width: 100%;
 		}
 /* You could add grid postioning here for these child items of the grid container and other unique styleing */
-		.project1 {}
-		.project2 {}
-		.project3 {}
-		.project4 {}
-		.project5 {}
-		.project6 {}
+		.bristolapple {
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
+		.inkskeleton {
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
+		.bristolmermaid {
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
+		.girl{
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
+		.tokyoposter {
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
+		.snowwhite {
+			padding: 0.5rem;
+			background: #B6E9FB;
+		}
 
 		nav {
 			font-family: 'Raleway', sans-serif;
