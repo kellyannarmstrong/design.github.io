@@ -1,0 +1,139 @@
+		.pagecontainer {
+		  margin: auto;
+		  width: 90vw;
+		}
+		body {
+			align-content: center;
+			font-family: 'Raleway', sans-serif;
+			font-size: 1em;
+			background-color: pink
+			color: black
+		}
+
+		.container {
+
+			max-width: 80vw;
+			margin: auto;
+		}
+
+		header {
+			grid-row: 1;
+			grid-column: 1 / 5;
+			color: black;
+			text-align: center;
+			background-color: white;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+		}
+
+		h1 {
+			font-family: 'Homemade Apple', cursive;
+			font-size: 2em;
+			color: #09B8F9
+		}
+
+		h2 {
+			font-family: 'Homemade Apple', cursive;
+			font-size: 1em;
+			color: gray
+		}
+
+
+		section {
+			background-color: white;
+
+		}
+
+		body {
+			align-content: center;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			font-size: 1em;
+			color: black
+		}
+
+		/*This is the container div where you declare CSS grid display
+		and set up how many columns and rows are needed for the image grid.
+		You could then go on to position each div on the grid though if
+		they are equidistant it is not necessary.
+		fr is a fractional, scalable unit for relative portions of the page,
+		but you can use other units like pixels too*/
+
+		.image-container-grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-gap: 2rem;
+			max-width: 60vw;
+			margin: auto;
+			background: white;
+
+		}
+
+		.imagebox {
+			padding: .5rem;
+			background: #B6E9FB;
+
+		}
+
+		img {
+			width: 100%;
+		}
+/* You could add grid postioning here for these child items of the grid container and other unique styleing */
+		.project1 {}
+		.project2 {}
+		.project3 {}
+		.project4 {}
+		.project5 {}
+		.project6 {}
+
+		nav {
+			font-family: 'Raleway', sans-serif;
+			font-size: 1em;
+			color: gray
+		}
+
+		.active {
+		background-color: #4CAF50;
+		color: gray
+		}
+
+		ul {
+	  list-style-type: none;
+		text-align: : center
+		color: yellow
+	  background-color: green;
+		overflow:hidden;
+	  margin: 0 auto;
+	  padding: 0;
+	  align: center
+	  list-style-type: none;
+	  width: 50%;
+		overflow:hidden;
+
+
+		}
+
+		li a {
+			color: #09B8F9;
+		  padding: 8px 16px;
+			display: inline-block;
+		  text-decoration: none;
+		}
+
+		/* Change the link color on hover */
+		li a:hover {
+			display: inline-block;
+			margin-right: -4px;
+			padding:4px;
+    	width:120px;
+		  background-color: #555;
+		  color: #B6E9FB;
+		}
+
+		footer {
+			background-color: #09B8F9;
+			color: black
+			text-align: center;
+			padding: 2rem;
+		}
